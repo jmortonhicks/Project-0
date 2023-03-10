@@ -9,9 +9,9 @@ public class ConnectionManager {
 		private static Connection bConnection;
 
 		private static String 
-		connectionString = "jdbc:postgresql://salt.db.elephantsql.com:5432/xpigjzrq",
-				username = "xpigjzrq",
-				password = "uKNkrd-CoDlUkXyY_8tnsCjlQUlpVJ-5";
+		connectionString = "url",
+				username = "username",
+				password = "password";
 
 		public static Connection getConnection() {
 			try {
